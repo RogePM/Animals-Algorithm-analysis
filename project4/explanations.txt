@@ -1,0 +1,108 @@
+Animals unsorted:
+[
+name:Bella Age:2 Species:Dog,              //Using input from user, and the Animal class, a Array list is created based on 
+name:joe Age:10 Species:Dog,                 the number inputed by the user. Then all animals made are printed as unsorted
+name:joe Age:11 Species:Fish,
+name:Sadie Age:3 Species:Lizard,
+name:joe Age:18 Species:Dog,
+name:jim Age:11 Species:Guinea Pig,
+name:bob Age:17 Species:Hamster,
+name:tim  Age:91 Species:Tortoise,
+name:jim Age:78 Species:Bird,
+name:Max Age:12 Species:Frog,
+name:tim  Age:20 Species:Dog,
+name:Charlie Age:45 Species:Tortoise,
+name:joe Age:2 Species:Frog,
+name:jim Age:6 Species:Lizard,
+name:Daisy Age:62 Species:Bird,
+name:Molly Age:52 Species:Bird,
+name:joe Age:5 Species:Cat,
+name:Daisy Age:12 Species:Hamster,
+name:jim Age:42 Species:Fish,
+name:Sadie Age:34 Species:Fish,
+name:tim  Age:20 Species:Hamster,
+name:jim Age:14 Species:Guinea Pig,
+name:Sadie Age:30 Species:Fish,
+name:Charlie Age:5 Species:Hamster,
+name:joe Age:6 Species:Lizard,
+name:Sadie Age:93 Species:Bird,
+name:jim Age:19 Species:Dog,
+name:Sadie Age:14 Species:Snake,
+name:Bella Age:20 Species:Lizard,
+name:jim Age:31 Species:Fish
+
+Sorted animals (by age):
+[                                            //using selection algorithm, animals were sorted by age. Each animal was compared one by one. 
+name:Bella Age:2 Species:Dog,                  if j animal is greater than current animal move animal at j to the right    
+name:joe Age:2 Species:Frog,
+name:Sadie Age:3 Species:Lizard,
+name:joe Age:5 Species:Cat,
+name:Charlie Age:5 Species:Hamster,
+name:jim Age:6 Species:Lizard,
+name:joe Age:6 Species:Lizard,
+name:joe Age:10 Species:Dog,
+name:joe Age:11 Species:Fish,
+name:jim Age:11 Species:Guinea Pig,
+name:Max Age:12 Species:Frog,
+name:Daisy Age:12 Species:Hamster,
+name:jim Age:14 Species:Guinea Pig,
+name:Sadie Age:14 Species:Snake,
+name:bob Age:17 Species:Hamster,
+name:joe Age:18 Species:Dog,
+name:jim Age:19 Species:Dog,
+name:tim  Age:20 Species:Dog,
+name:tim  Age:20 Species:Hamster,
+name:Bella Age:20 Species:Lizard,
+name:Sadie Age:30 Species:Fish,
+name:jim Age:31 Species:Fish,
+name:Sadie Age:34 Species:Fish,
+name:jim Age:42 Species:Fish,
+name:Charlie Age:45 Species:Tortoise,
+name:Molly Age:52 Species:Bird,
+name:Daisy Age:62 Species:Bird,
+name:jim Age:78 Species:Bird,
+name:tim  Age:91 Species:Tortoise,
+name:Sadie Age:93 Species:Bird]
+Insertion sort time: 0.1085 milliseconds
+
+
+Sorted animals (by name):
+[
+name:Bella Age:2 Species:Dog,
+name:Bella Age:20 Species:Lizard,
+name:Charlie Age:5 Species:Hamster,
+name:Charlie Age:45 Species:Tortoise,            // if animal at index j is less than animal at index minIndex (alphabetically)
+name:Daisy Age:12 Species:Hamster,
+name:Daisy Age:62 Species:Bird,
+name:Max Age:12 Species:Frog,
+name:Molly Age:52 Species:Bird,
+name:Sadie Age:3 Species:Lizard,
+name:Sadie Age:14 Species:Snake,
+name:Sadie Age:30 Species:Fish,
+name:Sadie Age:34 Species:Fish,
+name:Sadie Age:93 Species:Bird,
+name:bob Age:17 Species:Hamster,
+name:jim Age:11 Species:Guinea Pig,
+name:jim Age:19 Species:Dog,
+name:jim Age:31 Species:Fish,
+name:jim Age:42 Species:Fish,
+name:jim Age:6 Species:Lizard,
+name:jim Age:78 Species:Bird,
+name:jim Age:14 Species:Guinea Pig,
+name:joe Age:18 Species:Dog,
+name:joe Age:11 Species:Fish,
+name:joe Age:5 Species:Cat,
+name:joe Age:10 Species:Dog,
+name:joe Age:2 Species:Frog,
+name:joe Age:6 Species:Lizard,
+name:tim  Age:20 Species:Dog,
+name:tim  Age:91 Species:Tortoise,
+name:tim  Age:20 Species:Hamster]
+Insertion time: 0.2573 milliseconds
+
+Enter an age to search for:          // animals is sorted by age so we can use binary search to 
+                                    find the index of the animal with the age the user input
+11
+Found animal at index 14:
+name:jim Age:11 Species:Guinea Pig
+Binary search time: 0.9487 milliseconds
