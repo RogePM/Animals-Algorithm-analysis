@@ -1,0 +1,24 @@
+Number of animals : 10 
+Insertion sort time: 0.013 milliseconds   //faster
+Selection sort time: 0.0561 milliseconds
+Binary search time: 0.8886 milliseconds
+
+number of Animals: 100 
+Insertion sort time: 0.3106 milliseconds  /faster
+Selection sort time: 9.5875 milliseconds
+Binary search time: 0.8915 milliseconds
+
+Number of Animals: 1,000
+Insertion sort time: 5.4516 milliseconds
+Selection sort time: 75.7309 milliseconds
+Binary search time: 0.2651 milliseconds    //faster
+
+Number of Animals: 10,000
+Insertion sort time: 64.0574 milliseconds
+Selection sort time: 201.0217 milliseconds
+Binary search time: 0.9172 milliseconds //faster
+
+Number of Animals: 20,000
+Insertion sort time: 271.0039 milliseconds
+Selection sort time: 995.0502 milliseconds
+Binary search time: 0.8188 milliseconds    //faster
